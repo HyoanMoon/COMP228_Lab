@@ -14,7 +14,7 @@ public class Health extends Insurance
     public void setCost(double cost)
     {
 
-        monthlyCost = cost * 0.15;
+        monthlyCost = (cost * 0.15) + cost;
 
     }
 

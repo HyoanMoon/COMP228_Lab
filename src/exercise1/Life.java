@@ -14,7 +14,7 @@ public class Life extends Insurance
     @Override
     public void setCost(double cost)
     {
-        monthlyCost = cost *0.3;
+        monthlyCost = (cost *0.3)+ cost;
     }
 
 
